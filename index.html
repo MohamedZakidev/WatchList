@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Movie Watchlist</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="flex-header">
+                    <h1>Find your film</h1>
+                    <a href="watchlist.html" class="small-header">My watchlist</a>
+                </div>
+                <form id="form">
+                    <img class="search-icon" src="images/Icon0.png">
+                    <input id="search-input" class="search-input" type="search" placeholder="Search for a movie">
+                    <button class="search-btn" type="submit">Search</button>
+                </form>
+            </div>
+        
+            <main id="movie-list" class="movie-list">
+                <img class="no-search-img" src="images/Icon1.png">
+                <h3 class="no-search-text">Start exploring</h3>
+            </main>
+        </div>
+        
+        <script type="module" src="index.js"></script>
+    </body>
+</html>
